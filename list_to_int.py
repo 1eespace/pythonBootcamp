@@ -8,7 +8,7 @@ def determine_int(x):
     # Using "for loop" for iteration
     for number in x:  
         # Step3. Using the math expression: 
-        # 1111 => 1 + (10 * 1) + 1 + (10 * 10) + 1 + (10 * 10 * 10) + 1
+        # 8351 => 8, 8 * 10 + 3, 83 * 10 + 5, 835 * 10 + 1 
         result = result * 10 + number  
     
     # Step4. Using "print" function to show value in the Terminal
